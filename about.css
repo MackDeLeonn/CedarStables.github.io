@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+.about-hero {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.about-content {
+  padding: 3rem 2rem;
+  background: #f9f9f9;
+}
+
+.about-content .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-content ul {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+.about-content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.team {
+  background: white;
+  padding: 3rem 2rem;
+}
+
+.team .container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.member {
+  width: 200px;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.cta {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  color: #0073e6;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
